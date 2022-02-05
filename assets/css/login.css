@@ -1,0 +1,181 @@
+*{
+    margin:0 auto;
+    padding: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    font-family: "apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+body{
+    /*font-family: 'Work Sans';*/
+}
+.sign-up-body{
+    width:100%;
+    height:100%;
+    background: linear-gradient(
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.8)
+    ), url(images/Restaurant_background.jpg) no-repeat center;
+    background-size: cover !important;
+}
+.container{
+    text-align: center;
+    margin:auto;
+    /* padding: 15px; */
+}
+.card-content{
+    display: inline-block;
+    position: relative;
+    margin: 50px 0px;
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+}
+.signup-content{
+    max-width: 700px;
+}
+.login-content{
+    max-width: 430px;
+}
+.card-header{
+    background: #00a651;
+    color:white;
+    padding:15px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+.card-header .fa-user-plus{
+    font-size: 26px;
+    padding:15px;
+    border:2px solid white;
+    border-radius: 50%;
+    /* margin-top: 15px; */
+}
+.card-header h3{
+    font-size: 24px;
+    font-stretch: wider;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.card-header a{
+    position:absolute;
+    top:5px;
+    left:15px;
+    opacity: 0.6;
+    font-size: 18px;
+    color:white;
+}
+.card-header a:hover{
+    opacity: 1;
+}
+.card-body{
+    padding:15px;
+    color:#454b52;
+    /* font-size: 21px; */
+}
+.row{
+    display: flex;
+    text-align: left;
+}
+.form-group,.login-btn{
+    display: inline-block;
+    width: 100%;
+    background: #eee;
+    border:none;
+    border-radius: 3px;
+    margin: 10px 15px;
+    padding:10px 10px;
+}
+.login-btn{
+    padding:0px;
+    background: none;
+}
+.login-btn a{
+    margin-top: 10px;
+}
+.forgot-pass{
+    color: #999;
+}
+.forgot-pass:hover{
+    color: #00a651;
+}
+.input-box{
+    border:none;
+    background: #eee;
+    color:#202020;
+    padding:0px 0px 0px 10px;
+}
+.input-box::after{
+    border:none;
+    background: #eee;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.d-table{
+    display: table!important;
+}
+.d-table-cell{
+    vertical-align: middle;
+}
+.bottom-card-body{
+    text-align: center;
+    margin: 10px 0px;
+
+}
+.bottom-card-body a{
+    color:#00a651;
+    font-weight: 400;
+}
+.sign-up-button,.log-in-button{
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    color:white;
+    background:#00a651;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 10px 50px;
+}
+.log-in-button{
+    margin:0px;
+    float: right;
+}
+.sign-up-button:hover{
+    background:#006b34;
+    cursor: pointer;
+}
+.card-bottom{
+    border-top:1px solid rgb(219, 219, 219);
+    padding:25px 0px;
+    margin: 0px 30px;
+}
+.round-card a{
+    background:#eee;
+    border-radius: 50px;
+    padding: 10px 30px;
+    width: 50%;
+    color:#767777;
+    font-weight: 500;
+}
+.round-card a:hover{
+    background:rgb(202, 202, 202);
+    color:#383838;
+}

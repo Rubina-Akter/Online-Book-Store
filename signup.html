@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="shortcut icon" href="images/Logo-square-01.jpg" type="image/gif"> -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <title>Registration</title>
+</head>
+<body class="sign-up-body">
+    <div class="container">
+        <div class="card-content signup-content">
+            <div class="card-header">
+                <a href="index.html"><i class="fas fa-arrow-circle-left"></i></a>
+                <i class="fas fa-user-plus"></i>
+                <h3>Sign Up to Your Account</h3>
+            </div>
+            <div class="card-body">
+                <form action="/" method="post">
+                    <div class="row">
+                        <div class="form-group">
+                            <i class="fas fa-user"></i>
+                            <input type="name" class="input-box" placeholder="First Name" size=26 required>
+                        </div>
+                        <div class="form-group">
+                            <i class="fas fa-user"></i>
+                            <input type="name" class="input-box" placeholder="Last Name" size=26 required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" class="input-box" placeholder="Email Address" size=26 required>
+                        </div>
+                        <div class="form-group">
+                            <i class="fas fa-phone-alt"></i>
+                            <input type="phone" class="input-box" placeholder="Mobile Number" size=26 required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" class="input-box" placeholder="Password" size=26 required>
+                        </div>
+                        <div class="form-group">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" class="input-box" placeholder="Confirm Password" size=26 required>
+                        </div>
+                    </div>
+                    <div class="bottom-card-body">
+                        <label>
+                            <input type="checkbox" name="user-terms" id="user-terms" required>
+                            I accept the 
+                            <a href="#">Terms and conditions</a>
+                            and
+                            <a href="#">Privacy Policy</a>
+                        </label>
+                    </div>
+                    <button type="submit" class="sign-up-button">Sign Up</button>
+                </form>
+            </div>
+            <div class="card-bottom">
+                <div class="round-card">
+                    <a href="login.html">Already have an account? Log In</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+</body>
+</html>
